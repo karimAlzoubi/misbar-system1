@@ -3,8 +3,10 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "react-router dev",
-		"typecheck": "react-router typegen && tsc --noEmit"
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@auth/core": "^0.37.2",
